@@ -1,7 +1,5 @@
-Getting and Cleanding Data - Project Code Book
+Getting and Cleaning Data - Project Code Book
 ==============================================
-
-## Transformations
 
 ## Variables
 
@@ -75,3 +73,28 @@ Getting and Cleanding Data - Project Code Book
 [66] fbodybodygyromag-std     
 [67] fbodybodygyrojerkmag-mean
 [68] fbodybodygyrojerkmag-std 
+
+## Data
+
+Source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+## Transformations
+
+* Converted all column headings to lower-case
+* Removed () from mean() and std() column headings
+* Converted activities (e.g. WALKING, STANDING) to lower-case
+* Combined training and test data set
+
+## Assumptions
+
+1) The working directory contains the following files from the Samsung data:
+*activity_labels.txt
+*      X_train.txt
+*      X_test.txt
+*      y_train.txt
+*      y_test.txt
+*      subject_test.txt
+*      subject_train.txt
+*      features.txt
+2) For this analysis, the dataset returned (and submitted as part of the class
+    project) is the dataset outlined in project instruction step 5

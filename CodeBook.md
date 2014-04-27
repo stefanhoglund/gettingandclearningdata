@@ -1,11 +1,24 @@
 Getting and Cleaning Data - Project Code Book
 ==============================================
 
-## Variables
+## Project Purpose & Goal
+
+The purpose of this project is to collect, work with and clean a data set.  The goal is to prepare a tidy data set that can be used for analysis at a later stage.
+
+## Data
+
+The data used for the project is from an experiment called "Human Activity Recongnition Using Smartphones"
+
+Data Source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+Full description and additional information: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
+## Variables in tidy data set
 
  [1] subject - Identifies which subject (1:30) performed the activity                  
  [2] activity - Identifies activity (laying, sitting, standing, walking, walking_downstairs, walking_upstairs)
  
+  The following contains the average of each variable:
   
  [3] tbodyacc-mean-x          
  [4] tbodyacc-mean-y          
@@ -74,10 +87,6 @@ Getting and Cleaning Data - Project Code Book
 [67] fbodybodygyrojerkmag-mean
 [68] fbodybodygyrojerkmag-std 
 
-## Data
-
-Source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
-
 ## Transformations
 
 * Converted all column headings to lower-case
@@ -99,4 +108,5 @@ Source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR
 * features.txt
 
 2) For this analysis, the dataset returned (and submitted as part of the class
-    project) is the dataset outlined in project instruction step 5
+   project) is the dataset outlined in project instruction step 5.  The larger
+   dataset is also includede (tidydataset_step4.txt) in the repository for reference. 

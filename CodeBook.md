@@ -90,9 +90,14 @@ Full description and additional information: http://archive.ics.uci.edu/ml/datas
 ## Transformations
 
 * Converted all column headings to lower-case
+* Filtered out to only include mean and standard deviation from the features
 * Removed () from mean() and std() column headings
-* Converted activities (e.g. WALKING, STANDING) to lower-case
+* Added activity labels
+* Added subject id to identify subject performing the activity
+* Converted activity labels (e.g. WALKING, STANDING) to lower-case
 * Combined training and test data set
+* Calculated the average feature value grouped by subject and activity
+* Saved two tidy datasets to disk; one corresponding to step 4 of the project instructions and another one corresponding to step 5 of the project instructions.
 
 ## Assumptions
 

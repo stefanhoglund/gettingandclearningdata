@@ -5,8 +5,10 @@ Getting and Cleanding Data - Project Code Book
 
 ## Variables
 
- [1] subject                  
- [2] activity                 
+ [1] subject - Identifies which subject (1:30) performed the activity                  
+ [2] activity - Identifies activity (laying, sitting, standing, walking, walking_downstairs, walking_upstairs)
+ 
+  
  [3] tbodyacc-mean-x          
  [4] tbodyacc-mean-y          
  [5] tbodyacc-mean-z          
@@ -67,7 +69,7 @@ Getting and Cleanding Data - Project Code Book
 [60] fbodygyro-std-z          
 [61] fbodyaccmag-mean         
 [62] fbodyaccmag-std          
-[63] fbodybodyaccjerkmag-mean 
+[63] fbodybodyaccjerkmag-mean
 [64] fbodybodyaccjerkmag-std  
 [65] fbodybodygyromag-mean    
 [66] fbodybodygyromag-std     

@@ -88,13 +88,15 @@ Source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR
 ## Assumptions
 
 1) The working directory contains the following files from the Samsung data:
-*activity_labels.txt
-*      X_train.txt
-*      X_test.txt
-*      y_train.txt
-*      y_test.txt
-*      subject_test.txt
-*      subject_train.txt
-*      features.txt
+
+* activity_labels.txt
+* X_train.txt
+* X_test.txt
+* y_train.txt
+* y_test.txt
+* subject_test.txt
+* subject_train.txt
+* features.txt
+
 2) For this analysis, the dataset returned (and submitted as part of the class
     project) is the dataset outlined in project instruction step 5
